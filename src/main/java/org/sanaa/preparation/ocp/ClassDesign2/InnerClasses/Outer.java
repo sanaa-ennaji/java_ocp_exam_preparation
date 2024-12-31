@@ -34,4 +34,19 @@ void localdisplay (){
 
 
 }
+
+  //  Anonymous : a class without  name Used to implement an interface or extend a class in a single instance.
+    // class or interface, without having to actually subclass a class.
+    interface Printer {
+        void print ();
+    }
+
+    Printer printer = new Printer() {
+
+        public void print() {
+            System.out.println("anonymous inner");
+        }
+    };
+
+//    printer.print();
 }
