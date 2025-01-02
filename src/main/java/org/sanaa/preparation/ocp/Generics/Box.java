@@ -1,5 +1,5 @@
 package org.sanaa.preparation.ocp.Generics;
-// problems before generics
+// Create and use a generic class
 //generic type is a generic class or interface that is parameterized types.
 public class Box <T> {
 
