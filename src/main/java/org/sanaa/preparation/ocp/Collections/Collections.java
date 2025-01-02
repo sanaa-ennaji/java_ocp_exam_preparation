@@ -2,6 +2,7 @@ package org.sanaa.preparation.ocp.Collections;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 public class Collections {
@@ -30,6 +31,18 @@ public class Collections {
         numbers.add(1);
         System.out.println("First: " + numbers.first());
         System.out.println("Last: " + numbers.last());
+
+
+        // 3. TreeMap
+        TreeMap<String, Integer> map = new TreeMap<>();
+        map.put("Alice", 30);
+        map.put("Bob", 25);
+        map.put("Charlie", 35);
+
+        System.out.println("TreeMap (Sorted by Key):");
+        for (String key : map.keySet()) {
+            System.out.println(key + ": " + map.get(key));
+        }
 
     }
 
