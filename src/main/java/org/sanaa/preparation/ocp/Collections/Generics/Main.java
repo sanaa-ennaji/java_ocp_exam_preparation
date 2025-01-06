@@ -1,4 +1,4 @@
-package org.sanaa.preparation.ocp.Generics;
+package org.sanaa.preparation.ocp.Collections.Generics;
 
 public class Main {
 
