@@ -6,21 +6,23 @@ package org.sanaa.preparation.ocp.ocp.ClassDesign.encapsulation;
 
 public class Person {
     private String name;
-    private int age ;
+    private int age;
+
     // we acess to this data using the setters and getters
-    public String getName(){
-        return name ;
+    public String getName() {
+        return name;
     }
 
-    public void setName (String name){
-        this.name = name ;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public int getAge (){
+    public int getAge() {
         return age;
     }
-    public void setAge (int age){
-        this.age =  age;
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
 }

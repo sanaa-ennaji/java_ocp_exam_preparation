@@ -14,7 +14,6 @@ interface Calculator {
 //    System.out.println("sum: " + calc.add(5, 3));
 
 
-
 //lambda expressions with iteration
 //        List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
 //        names.forEach(name -> System.out.println(name));

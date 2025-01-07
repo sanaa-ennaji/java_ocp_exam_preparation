@@ -4,19 +4,17 @@ package org.sanaa.preparation.ocp.ocp.ClassDesign.Singloton;
 // used with database
 public class Singleton {
 
-    private static Singleton  instance;
+    private static Singleton instance;
 
 
-
-     private Singleton( ){
+    private Singleton() {
 
     }   // private constructor
 
-    public static Singleton getInstance()
-    {
-      if (instance == null )  {
-          instance = new Singleton();
-      }
-       return instance;
+    public static Singleton getInstance() {
+        if (instance == null) {
+            instance = new Singleton();
+        }
+        return instance;
     }
 }
